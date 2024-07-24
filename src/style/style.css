@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+body * {
+    font-family: "Inter", sans-serif !important;
+}
+
+#root .def-btn:hover {
+    background: #ff4040;
+    color: #fff;
+}
+
+.fullwidth {
+    width: 100% !important;
+}
+
+
+
+
+
+@media (max-width:767px) {
+
+    .LoginBox {
+        flex-direction: column;
+    }
+    
+    .welcomeBlk {
+        width: 100%;
+    }
+    
+    .loginBlk {
+        width: 100%;
+        padding: 50px 20px;
+        min-height: unset;
+    }
+    
+    .loginBlk h2 {
+        margin-bottom: 50px;
+    }
+
+    .AzureSSO.MuiBox-root, .serviceNow.MuiBox-root {
+        padding: 40px 25px 50px;
+    }
+
+
+}
